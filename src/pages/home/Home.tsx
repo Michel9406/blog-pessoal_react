@@ -11,17 +11,17 @@ function Home() {
             <h2 className="text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500 ">
               Seja bem vindo!
             </h2>
-            <p className="text-xl bg-clip-border">Ao meu Blog-Pessoal</p>
+            <p className="text-xl bg-clip-border">Ao meu Blog-Papo de dev</p>
 
             <div className="flex justify-around gap-4">
-              <button className="rounded bg-white text-blue-800 py-2 px-4">
+              <button className=" hover:bg-violet-600 ring-2 from-pink-500 rounded bg-white text-blue-950 py-2 px-4">
                 Ver postagens
               </button>
             </div>
           </div>
 
           <div className="flex justify-center ">
-          <img src={homeLogo} alt="" className='" w-3/4  m-2 rounded-full ring-2 ring-purple-500 ring-offset-4 ring-offset-slate-50 dark:ring-offset-slate-900 ' />
+          <img src={homeLogo} alt="" className='" w-4/5  m-2 rounded-full ring-2 ring-purple-500 ring-offset-4 ring-offset-slate-50 dark:ring-offset-slate-900 ' />
           </div>
         </div>
       </div>
