@@ -1,7 +1,7 @@
 import { useContext } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { AuthContext } from '../../contexts/AuthContext'
-import { GithubLogo, InstagramLogo, LinkedinLogo, User } from "@phosphor-icons/react";
+import { User } from "@phosphor-icons/react";
 
 function Navbar() {
   let navigate = useNavigate()
